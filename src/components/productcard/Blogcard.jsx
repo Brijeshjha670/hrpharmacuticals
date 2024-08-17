@@ -4,7 +4,7 @@ import { FaUserCircle } from "react-icons/fa";
 import { IoShareSocialOutline } from "react-icons/io5";
 import { FaRegCommentAlt } from "react-icons/fa";
 
-const Blogcard = ({img}) => {
+const Blogcard = ({img,Title,Content}) => {
   return (
     <Card>
       <div className="date">
@@ -16,18 +16,18 @@ const Blogcard = ({img}) => {
       </div>
       <div className="blog_content">
         <div className="button">
-           <button> unrecognized</button>
+           {/* <button> unrecognized</button> */}
         </div>
         <div className="title">
-            Acne Scar removal treatment
+            {Title}
         </div>
         <div className="action">
-            <span className="postedby">Posted By <FaUserCircle  cursor={"pointer"}/> Sachin</span>
+            <span className="postedby">Posted By <FaUserCircle  cursor={"pointer"}/>Nishkarsh sharma</span>
             <span className="comment"><FaRegCommentAlt cursor={"pointer"}/></span>
             <span className="share"><IoShareSocialOutline  cursor={"pointer"}/></span>
         </div>
         <div className="desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti dicta cumque ut maxime, labore doloribus reiciendis minus iusto incidunt ab!...
+            {Content}
         </div>
         <div className="button2">
             <a href="#">Continue reading</a>

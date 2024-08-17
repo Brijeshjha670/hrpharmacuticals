@@ -34,9 +34,9 @@ const HeroSliderCard = ({subtitle,title,desc,img,bgimg}) => {
     <Card style={{backgroundImage:bg}}>
       <div className="container">
         <div className="content">
-          <div className="subTitle"  data-aos="flip-down">{subtitle || "Natural Pilesaway"}</div>
-          <div className="title"  data-aos="flip-down">{title || "Natural Pilesaway"}</div>
-          <div className="desc">{desc || "The Old Natural Pilesaway Piles medicine I For Piles, Hemorrhoid Support, Bavasir, Fissure."}</div>
+          <div className="subTitle"  data-aos="flip-down">{subtitle || "Fungipurge Dusting Powder"}</div>
+          <div className="title"  data-aos="flip-down">{title || "Fungipurge Dusting Powder"}</div>
+          <div className="desc">{desc || "A powder aimed at treating fungal and bacterial skin infection by absorbing excess moisture and preventing further growth."}</div>
           <div className="buttons">
             <ButtonStyle2>Shop now</ButtonStyle2>
             <ButtonOutline>view details</ButtonOutline>

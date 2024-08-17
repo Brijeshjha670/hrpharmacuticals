@@ -55,7 +55,7 @@ const Footer = () => {
                     Pharmaceutical
                   </a>
                 </div>
-          <p>Sanstuti Pharmaceuticals is a quality derma care initiative which has been made with a vision of providing the best of derma care products</p>
+          <p>HR Pharmaceuticals is dedicated to offering top-notch dermatological care products, driven by a vision to deliver the highest quality in derma care.</p>
           <div className="other_info">
             <div className="location">
               <span>
@@ -184,7 +184,7 @@ const Footer = () => {
             </div>
             <div className="info">
               <span className="title">Get Free Consultation Now</span>
-              <p>Get Free Prescription for your skin & hair care issues.</p>
+              <p>Receive a complimentary prescription for your skin and hair care concerns.</p>
             </div>
           </div>
           <div className="form">
@@ -196,7 +196,7 @@ const Footer = () => {
       <div className="copyright">
         <div className="container">
           <div className="text-content">
-          Developed By <strong>AdverRise</strong> 2023 <strong>Advertrise Digital Marketing Agency.</strong>
+          Developed By <strong>Brijesh Jha</strong> 2024 <strong>Software Developer</strong>
           </div>
           <div className="images"></div>
         </div>

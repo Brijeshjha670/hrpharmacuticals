@@ -4,7 +4,7 @@ import { CiHeart } from "react-icons/ci";
 import { AiOutlineUser } from "react-icons/ai";
 import { IoCartOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
-const CardStyle2 = ({ img }) => {
+const CardStyle2 = ({ img , Title ,Description}) => {
   return (
     <Card>
       <div className="discount">15%</div>
@@ -24,9 +24,9 @@ const CardStyle2 = ({ img }) => {
         <span className="comparee"></span>
       </div>
       <div className="content">
-        <span className="title">adalia protien shampoo</span>
-        <span className="desc">Shampoo/Hair Loss</span>
-        <span className="price">$221</span>
+        <span className="title">{Title}</span>
+        <span className="desc">{Description}</span>
+        {/* <span className="price">$221</span> */}
       </div>
       <div className="star-rating">
         <span>⭐⭐⭐⭐⭐</span>

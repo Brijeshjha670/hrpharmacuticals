@@ -56,17 +56,17 @@ const GridProductSlider3 = () => {
         }}
       >
       
-        <SwiperSlide><CardStyle2 img={"/img/product8.jpg"}/></SwiperSlide>
-        <SwiperSlide><CardStyle2 img={"/img/product10.jpg"}/></SwiperSlide>
-        <SwiperSlide><CardStyle2 img={"/img/product12.jpg"}/></SwiperSlide>
+        <SwiperSlide><CardStyle2 img={"/img/product8.jpg"} Title={"Clobexa Cream"} Description={"Anti-inflammatory Cream"}/></SwiperSlide>
+        <SwiperSlide><CardStyle2 img={"/img/product10.jpg"} Title={"Dermatress Acne Face Wash"} Description={"Acne Preventive Solution"}/></SwiperSlide>
+        <SwiperSlide><CardStyle2 img={"/img/product12.jpg"} Title={"Dermatress Glow Facewash"} Description={"Cleansing Facewash"}/></SwiperSlide>
         <SwiperSlide className="default-card">
             <div className="card">
-                <div className="subtitle">Hairloss Treatment</div>
-                <div className="title">Professional</div>
-                <div className="subtitle2">Hailcare</div>
-                <p>Unleash the Power Within Your Tresses".Your Journey to Hair Perfection Starts Here</p>
+                <div className="subtitle">Skincare Solutions</div>
+                <div className="title">Discover Your Skin's Secret Weapon!</div>
+                {/* <div className="subtitle2">Hailcare</div> */}
+                <p>Introducing a range of advanced skincare solutions to address various dermatological concerns.</p>
                 <div className="btn">
-                    <ButtonStyle1>continue shopping</ButtonStyle1>
+                    {/* <ButtonStyle1>continue shopping</ButtonStyle1> */}
                 </div>
             </div>
         </SwiperSlide>

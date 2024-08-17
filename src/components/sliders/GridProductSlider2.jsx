@@ -57,18 +57,18 @@ const GridProductSlider2 = () => {
       >
         <SwiperSlide className="default-card">
             <div className="card">
-                <div className="subtitle">Hairloss Treatment</div>
-                <div className="title">Professional</div>
-                <div className="subtitle2">Hailcare</div>
-                <p>Unleash the Power Within Your Tresses".Your Journey to Hair Perfection Starts Here</p>
+                <div className="subtitle">Skincare solutions</div>
+                <div className="title">Elvate your Skincare Routine.</div>
+                {/* <div className="subtitle2">Hailcare</div> */}
+                <p>Discover the ultimate in Skincare with our expertly formulated products.</p>
                 <div className="btn">
-                    <ButtonStyle1>continue shopping</ButtonStyle1>
+                    {/* <ButtonStyle1>continue shopping</ButtonStyle1> */}
                 </div>
             </div>
         </SwiperSlide>
-        <SwiperSlide><CardStyle2 img={"/img/product5.jpg"}/></SwiperSlide>
-        <SwiperSlide><CardStyle2 img={"/img/product10.jpg"}/></SwiperSlide>
-        <SwiperSlide><CardStyle2 img={"/img/product7.jpg"}/></SwiperSlide>
+        <SwiperSlide><CardStyle2 img={"/img/product5.jpg"} Title={"Luecan Cream"} Description={"Anti-Fungal Agent"}/></SwiperSlide>
+        <SwiperSlide><CardStyle2 img={"/img/product10.jpg"} Title={"Dermatress Acne Face Wash"} Description={"Acne Prevention Solution"}/></SwiperSlide>
+        <SwiperSlide><CardStyle2 img={"/img/product7.jpg"} Title={"Fuciderm Cream"} Description={"Topical Antibiotic"}/></SwiperSlide>
         {/* <CardStyle2 img={"/img/product5.png"}/>
         <CardStyle2 img={"/img/product6.png"}/>
         <CardStyle2 img={"/img/product7.png"}/> */}
